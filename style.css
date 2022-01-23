@@ -1,0 +1,13 @@
+/*Google Fonts Poppins*/
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Poppins:wght@400;500;700&display=swap');
+
+
+font-family{
+    font-family: 'Bebas Neue', cursive;
+    font-family: 'Poppins', sans-serif;
+}
+
+.convention-name{
+    width: 305px;
+    height: 33px;
+}
