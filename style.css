@@ -80,6 +80,11 @@ footer{
 
 @media (max-width: 570px){
     
+    .international{
+        width: 103px;
+        height: 42px;
+        padding: 0%;
+    }
 
     .btn btn-primary{
         width: 168px;
@@ -106,6 +111,8 @@ footer{
         width: 324px;
         height: 301px;
     }
+
+
 
     .main-footer{
         width: 360px;
