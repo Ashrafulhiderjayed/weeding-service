@@ -39,3 +39,35 @@ font-family{
     padding-right: 0%;
     padding-left: 0%;
 }
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/*footer */
+
+footer{
+   
+    background-color: #0B0D17;
+}
+
+.main-footer{
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* Css media Query */
+
+@media (max-width: 570px){
+    .sm-device{
+        margin-top: 0px;
+        padding: 0;
+        margin-bottom: 0px;
+        padding-bottom: 0px;
+    }
+    .sm-device h2{
+        font-size: 20px;
+    }
+}
