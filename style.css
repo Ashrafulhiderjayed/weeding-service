@@ -6,7 +6,11 @@ font-family{
     font-family: 'Bebas Neue', cursive;
     font-family: 'Poppins', sans-serif;
 }
-
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 .convention-name{
     width: 305px;
     height: 33px;
@@ -48,11 +52,7 @@ font-family{
     padding-left: 0%;
 }
 
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
+
 
 .hot{
     background-color: #FF4E4E;
@@ -79,32 +79,40 @@ footer{
 /* Css media Query */
 
 @media (max-width: 570px){
-    .sm-device{
-        margin-top: 0px;
-        padding: 0;
-        margin-bottom: 0px;
-        padding-bottom: 0px;
+    
+
+    .btn btn-primary{
+        width: 168px;
+        height: 44px;
     }
-    .sm-device h2{
-        font-size: 20px;
-        padding: 0px;
-        margin: 0px;
-        padding-bottom: 0px;
-        margin-top: 50px;
+    .carousel-caption h1{
+        width: 327px;
+        height: 72px;
     }
-    .sm-device p{
-        font-size: 10px;
-        margin-bottom: 5px;
+
+    .card2{
+        margin-bottom: 37px;
     }
-    .sm-device footer{
-        display: flex;
-        align-items: center;
+
+    .card3{
+        margin-top: 37px;
     }
-    .sm-device.people-image{
+
+    .qsn{
+        margin-bottom: 25px;
+    }
+
+    .people-img{
         width: 324px;
         height: 301px;
-        margin-left: 15px;
-        margin-right: 15px;
     }
-    
+
+    .main-footer{
+        width: 360px;
+        height: 340px;
+    }
+    .d-flex{
+        flex-direction: column;
+        }
+
 }
