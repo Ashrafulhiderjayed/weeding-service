@@ -11,3 +11,31 @@ font-family{
     width: 305px;
     height: 33px;
 }
+
+.text-white{
+    
+}
+
+.stay-color{
+    color: #DC143C;
+}
+
+.arrangement{
+    text-align: justify;
+}
+
+
+
+.card-footer{
+    background-color: white;
+    border-top: white;
+}
+
+.background-blue{
+    background-color: #3F87F5;
+}
+
+.paddign-remove{
+    padding-right: 0%;
+    padding-left: 0%;
+}
