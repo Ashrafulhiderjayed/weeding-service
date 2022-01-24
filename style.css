@@ -25,6 +25,14 @@ font-family{
 }
 
 
+.fa-gift{
+    color: blue;
+}
+
+.border-start{
+    border-left: 2px solid blue;
+    
+}
 
 .card-footer{
     background-color: white;
@@ -44,6 +52,16 @@ font-family{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+}
+
+.hot{
+    background-color: #FF4E4E;
+    width: 46px;
+    height: 37px;
+    margin-right: 20px;
+    margin-top: -20px;
+    border-radius: 35px;
+    font-size: 17px;
 }
 
 /*footer */
@@ -82,7 +100,7 @@ footer{
         display: flex;
         align-items: center;
     }
-    .people-image{
+    .sm-device.people-image{
         width: 324px;
         height: 301px;
         margin-left: 15px;
